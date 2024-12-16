@@ -58,6 +58,9 @@ jobs:
         uses: azure/cli@v2
         with:
           inlineScript: |
+            echo "Hello hello hello"
+            ls -al
+            echo $(az -v)
             echo $(az account show)
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
