@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ocgjHVFxBxg=",
+  "success": true,
+  "projectFilePath": "Q:\\Dotnet9LinuxTest\\WA-9-64\\WA-9-64\\WA9.csproj",
+  "expectedPackageFiles": [
+    "Q:\\.tools\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.100\\microsoft.net.sdk.compilers.toolset.9.0.100.nupkg.sha512"
+  ],
+  "logs": []
+}

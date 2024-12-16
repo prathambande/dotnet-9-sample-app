@@ -1,0 +1,7 @@
+Q:\Dotnet9LinuxTest\WA-9-64\WA-9-64\bin\Release\net9.0\publish\WA9.exe
+Q:\Dotnet9LinuxTest\WA-9-64\WA-9-64\bin\Release\net9.0\publish\appsettings.Development.json
+Q:\Dotnet9LinuxTest\WA-9-64\WA-9-64\bin\Release\net9.0\publish\appsettings.json
+Q:\Dotnet9LinuxTest\WA-9-64\WA-9-64\bin\Release\net9.0\publish\WA9.dll
+Q:\Dotnet9LinuxTest\WA-9-64\WA-9-64\bin\Release\net9.0\publish\WA9.deps.json
+Q:\Dotnet9LinuxTest\WA-9-64\WA-9-64\bin\Release\net9.0\publish\WA9.runtimeconfig.json
+Q:\Dotnet9LinuxTest\WA-9-64\WA-9-64\bin\Release\net9.0\publish\WA9.pdb
