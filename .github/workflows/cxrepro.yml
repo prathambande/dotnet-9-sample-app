@@ -61,17 +61,17 @@ jobs:
             ls -al
             echo $(az -v)
             echo $(az account show)
-      - name: Deploy to Azure Web App
-        uses: azure/webapps-deploy@v3
-        with:
-          app-name: customerReproTest
-          resource-group-name: webapps-deploy-test
-          package: .
       # - name: Deploy to Azure Web App
-      #   uses: azure/cli@v2
+      #   uses: azure/webapps-deploy@v3
       #   with:
-      #     inlineScript: |
-      #       az webapp deploy --resource-group kv-secret-rotation-sample-rg-dev --name kv-secret-rotation-sample-appsrv-dev --src-path $GITHUB_WORKSPACE/arbitrary-aspnetcore-webapi/app.zip --track-status false
+      #     app-name: customerReproTest
+      #     resource-group-name: webapps-deploy-test
+      #     package: .
+      - name: Deploy to Azure Web App
+        uses: azure/cli@v2
+        with:
+          inlineScript: |
+            az webapp deploy --resource-group webapps-deploy-test --name customerReproTest --src-path ./hu --track-status false
       - name: Logout
         run: |
           az logout
