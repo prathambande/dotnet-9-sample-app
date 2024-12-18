@@ -95,7 +95,7 @@ jobs:
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
-        uses: azure/webapps-deploy@v3
+        uses: azure/webapps-deploy@v2.2.9
         with:
           app-name: 'customerReproTest'
           slot-name: 'Production'
