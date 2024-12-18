@@ -42,7 +42,6 @@ jobs:
   deploy:
     name: Deploy to Azure Web App
     runs-on: ubuntu-latest
-    environment: dev
     needs: [build_test_publish]
     steps:
       - name: Download artifact
