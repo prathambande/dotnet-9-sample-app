@@ -71,7 +71,7 @@ jobs:
         uses: azure/cli@v2
         with:
           inlineScript: |
-            az webapp deploy --resource-group webapps-deploy-test --name customerReproTest --src-path ./hu --track-status false
+            az webapp deploy --resource-group webapps-deploy-test --name customerReproTest --src-path $GITHUB_WORKSPACE/hu/app.zip --track-status false
       - name: Logout
         run: |
           az logout
