@@ -58,9 +58,9 @@ jobs:
             echo "Hello hello hello"
             ls / -al
             echo $(az -v)
-            echo $(az account show)
+            echo $(az account show --output json)
             echo $(/usr/bin/az -v)
-            echo $(/usr/bin/az account show)
+            echo $(/usr/bin/az account show --output json)
             echo "starting"
             az webapp deploy --resource-group webapps-deploy-test --name customerReproTest --src-path $GITHUB_WORKSPACE/hu/app.zip --track-status false
       # - name: Deploy to Azure Web App
