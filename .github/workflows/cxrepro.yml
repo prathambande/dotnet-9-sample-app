@@ -58,6 +58,8 @@ jobs:
             echo $(az account show)
             echo $(/usr/bin/az -v)
             echo $(/usr/bin/az account show)
+            echo "starting"
+            az webapp deploy --resource-group webapps-deploy-test --name customerReproTest --src-path $GITHUB_WORKSPACE/hu/app.zip --track-status false
       # - name: Deploy to Azure Web App
       #   uses: azure/webapps-deploy@v3
       #   with:
